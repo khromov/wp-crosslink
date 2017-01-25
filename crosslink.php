@@ -56,6 +56,6 @@ add_action('init', function() {
 			'name' => ''
 		), $atts ));
 
-		return "<a class='crosslink_link' href='{$href}' style='color: red;'>{$name}</a>";
+		return "<a class='crosslink_link' href='{$href}'>{$name}</a>";
 	});
 });
